@@ -1,0 +1,147 @@
+@using Microsoft.AspNetCore.Http;
+@inject IHttpContextAccessor HttpContextAccessor
+@model LibraryManagementSystem.Models.Book
+
+
+
+@{
+
+    ViewData["Title"] = "Edit";
+
+}
+
+
+<header style="margin-bottom: 40px;">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-light  ">
+            <div class="container-fluid">
+                <img src="https://th.bing.com/th/id/OIP.c7gLBJpEuUBJ0qsmkcCQgwAAAA?pid=ImgDet&rs=1" style="height:60px;width:140px"  alt="LOGO">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse  justify-content-between">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index"><b>Home</b></a>
+                        </li></ul>
+                          <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="LogOut"><b>LogOut</b></a>
+                        </li>
+                       </ul>
+                </div>
+                         
+                        </div>
+                  
+            </div>
+        </nav>
+    </header>
+<h1 style="text-align:center">Edit</h1>
+<div class="row">
+
+    <div class="col-md-11 mx-auto">
+
+        <form asp-action="Edit" enctype="multipart/form-data">
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <input type="hidden" asp-for="ID" />
+            
+            <div class="row">
+                <div class="col-md-6 ">
+                    <div class="form-group">
+                        <label asp-for="BookID" class="control-label"></label>
+                        <input asp-for="BookID" class="form-control" />
+                        <span asp-validation-for="BookID" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="BookName" class="control-label"></label>
+                        <input asp-for="BookName" class="form-control" />
+                        <span asp-validation-for="BookName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="AuthorName" class="control-label"></label>
+                        <input asp-for="AuthorName" class="form-control" />
+                        <span asp-validation-for="AuthorName" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="BookEdition" class="control-label"></label>
+                        <input asp-for="BookEdition" class="form-control" />
+                        <span asp-validation-for="BookEdition" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="TotalPages" class="control-label"></label>
+                        <input asp-for="TotalPages" class="form-control" />
+                        <span asp-validation-for="TotalPages" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Description" class="control-label"></label>
+                        <input asp-for="Description" class="form-control" />
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="AddedOn" class="control-label"></label>
+                        <input asp-for="AddedOn" class="form-control" />
+                        <span asp-validation-for="AddedOn" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <img src="~/images/@Model.ProfilePicture" style="height:200px;width:200px" />
+
+                        <input type="file" name="file" />
+
+                        <span asp-validation-for="ProfilePicture" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Category" class="control-label"></label>
+                        <select asp-for="Category" class="form-control">
+                            <option value="">Choose Category</option>
+                            <option value="Fantasy">Fantasy</option>
+                            <option value="Horror">Horror</option>
+                            <option value="Programming">Programming</option>
+                            <option value="ScienceFiction">ScienceFiction</option>
+                            <option value="Environment">Environment</option>
+                            <option value="Photography">Photography</option>
+                        </select>
+                        <span asp-validation-for="Category" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+
+
+           
+
+            
+            <div class="form-group" style="text-align:center">
+
+                <input type="submit" value="Save" class="btn btn-primary" />
+
+            </div>
+
+        </form>
+
+    </div>
+
+</div>
+
+
+
+<div>
+
+    <a asp-action="Index">Back to List</a>
+
+</div>

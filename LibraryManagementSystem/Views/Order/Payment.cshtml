@@ -1,0 +1,104 @@
+@using LibraryManagementSystem.Models
+@model OrderEntity
+<!DOCTYPE html>
+
+    <html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head runat="server">
+        <title>Razorpay .Net Sample App</title>
+        <form action="Payment" method="post" name="razorpayForm">
+            <input id="razorpay_payment_id" type="hidden" name="razorpay_payment_id" />
+            <input id="razorpay_order_id" type="hidden" name="razorpay_order_id" />
+            <input id="razorpay_signature" type="hidden" name="razorpay_signature" />
+        </form>
+    </head>
+<header style="margin-bottom: 40px;">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-light  ">
+            <div class="container-fluid">
+                <img src="https://th.bing.com/th/id/OIP.c7gLBJpEuUBJ0qsmkcCQgwAAAA?pid=ImgDet&rs=1" style="height:60px;width:140px"  alt="LOGO">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse  justify-content-between">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index"><b>Home</b></a>
+                        </li></ul>
+                    
+                         
+                        </div>
+                  
+            </div>
+        </nav>
+    </header>
+    <body>
+        <style>
+            .button-container {
+            display: flex;
+            justify-content: center;
+            }
+            .button-container button {
+                color: white;
+                border-radius: 20px;
+                padding: 10px 20px;
+                background-color: rgb(37, 75, 102);
+            }
+
+
+        </style>
+        <img src="https://outwittrade.com/wp-content/uploads/2020/03/razorpay-logo.png" height="350" class="d-block w-100" alt="...">
+        
+        <br/>
+         <br/>
+          <br/>
+        
+        <div class="button-container">
+            <button id="rzp-button1" class="red-button">Pay with Razorpay</button>
+        </div>
+
+        <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+        <script>
+            var orderId = "@ViewBag.orderid"
+            var options = {
+                "name": "@Html.DisplayFor(model=>model.Name)",
+                "description": "pay penalty",
+                "order_id": orderId,
+                "prefill": {
+                    "name": "@Html.DisplayFor(model=>model.Name)",
+                    "email": "@Html.DisplayFor(model=>model.Email)",
+                    "contact": "@Html.DisplayFor(model=>model.Mobile)",
+                },
+                "notes": {
+                    "address": "India"
+                },
+                "theme": {
+                    "color": "#3399cc"
+                }
+            }
+            // Boolean whether to show image inside a white frame. (default: true)
+            options.theme.image_padding = false;
+            options.handler = function (response) {
+                document.getElementById('razorpay_payment_id').value = response.razorpay_payment_id;
+                document.getElementById('razorpay_order_id').value = orderId;
+                document.razorpayForm.submit();
+            };
+            options.modal = {
+                ondismiss: function () {
+                    console.log("This code runs when the popup is closed");
+                },
+                // Boolean indicating whether pressing escape key 
+                // should close the checkout form. (default: true)
+                escape: true,
+                // Boolean indicating whether clicking translucent blank
+                // space outside checkout form should close the form. (default: false)
+                backdropclose: false
+            };
+            var rzp = new Razorpay(options);
+            document.getElementById('rzp-button1').onclick = function (e) {
+                rzp.open();
+                e.preventDefault();
+            }
+        </script>
+    </body>
+    </html>

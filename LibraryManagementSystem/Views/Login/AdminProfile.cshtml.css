@@ -1,0 +1,35 @@
+.profile-container {
+    display: flex;
+    align-items: center;
+    margin: 50px;
+  }
+  
+  .profile-picture {
+    margin-right: 50px;
+  }
+  
+  .profile-picture img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+  }
+  
+  .profile-info h2 {
+    margin-top: 0;
+  }
+  
+  .profile-info ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .profile-info li {
+    margin-bottom: 10px;
+  }
+  
+  .profile-info li strong {
+    width: 100px;
+    display: inline-block;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,124 @@
+  @model LibraryManagementSystem.Models.UserDetail
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<header style="margin-bottom: 40px;">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-light  ">
+            <div class="container-fluid">
+                <img src="https://th.bing.com/th/id/OIP.c7gLBJpEuUBJ0qsmkcCQgwAAAA?pid=ImgDet&rs=1" style="height:60px;width:140px"  alt="LOGO">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse  justify-content-between">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index"><b>Home</b></a>
+                        </li></ul>
+                          <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="LogOut"><b>LogOut</b></a>
+                        </li> 
+                    </ul>
+                </div>
+                         
+                        </div>
+                  
+            </div>
+        </nav>
+    </header>
+<h1 style="text-align:center">Add New User</h1>
+
+
+<hr />
+
+
+
+<div class="row">
+    <div class="col-md-11 mx-auto">
+        <form asp-action="Create" enctype="multipart/form-data">
+            @Html.AntiForgeryToken()
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="row">
+                <div class="col-md-6 ">
+                    <div class="form-group">
+                        <label asp-for="RegisterNo" class="control-label"></label>
+                        <input asp-for="RegisterNo" class="form-control" />
+                        <span asp-validation-for="RegisterNo" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Name" class="control-label"></label>
+                        <input asp-for="Name" class="form-control" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="EmailID" class="control-label"></label>
+                        <input asp-for="EmailID" class="form-control" />
+                        <span asp-validation-for="EmailID" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Password" class="control-label"></label>
+                        <input asp-for="Password" class="form-control" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">  
+                        <label asp-for="Gender" class="control-label"></label>  
+                        <select asp-for="Gender" class="form-control">  
+                            <option value="">Choose Gender</option>  
+                            <option value="Male">Male</option>  
+                            <option value="Female">Female</option>  
+                        </select>  
+                        <span asp-validation-for="Gender" class="text-danger"></span>  
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Age" class="control-label"></label>
+                        <input asp-for="Age" class="form-control" />
+                        <span asp-validation-for="Age" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Address" class="control-label"></label>
+                        <input asp-for="Address" class="form-control" />
+                        <span asp-validation-for="Address" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="PhoneNumber" class="control-label"></label>
+                        <input asp-for="PhoneNumber" class="form-control" />
+                        <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="ProfilePicture" class="control-label"></label>
+                        <input type="file" name="file" />
+                        <span asp-validation-for="ProfilePicture" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group"style="text-align:center">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+        @section Scripts {
+            @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+        }
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

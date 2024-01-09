@@ -1,0 +1,181 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = LibraryManagementSystem
+build_property.RootNamespace = LibraryManagementSystem
+build_property.ProjectDir = c:\Users\Swedha M\Desktop\Project\LibraryManagementSystem (3)\LibraryManagementSystem\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = c:\Users\Swedha M\Desktop\Project\LibraryManagementSystem (3)\LibraryManagementSystem
+build_property._RazorSourceGeneratorDebug = 
+
+[c:/Users/Swedha M/Desktop/Project/LibraryManagementSystem (3)/LibraryManagementSystem/Views/Account/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Swedha M/Desktop/Project/LibraryManagementSystem (3)/LibraryManagementSystem/Views/Admin/AdminHomePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5Ib21lUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Swedha M/Desktop/Project/LibraryManagementSystem (3)/LibraryManagementSystem/Views/Admin/BorrowBookDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQm9ycm93Qm9va0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Swedha M/Desktop/Project/LibraryManagementSystem (3)/LibraryManagementSystem/Views/Book/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Swedha M/Desktop/Project/LibraryManagementSystem (3)/LibraryManagementSystem/Views/Book/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Swedha M/Desktop/Project/LibraryManagementSystem (3)/LibraryManagementSystem/Views/Book/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Swedha M/Desktop/Project/LibraryManagementSystem (3)/LibraryManagementSystem/Views/Book/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Swedha M/Desktop/Project/LibraryManagementSystem (3)/LibraryManagementSystem/Views/Category/Environment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRW52aXJvbm1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Swedha M/Desktop/Project/LibraryManagementSystem (3)/LibraryManagementSystem/Views/Category/Fantasy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRmFudGFzeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Swedha M/Desktop/Project/LibraryManagementSystem (3)/LibraryManagementSystem/Views/Category/Horror.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSG9ycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Swedha M/Desktop/Project/LibraryManagementSystem (3)/LibraryManagementSystem/Views/Category/MainIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcTWFpbkluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Swedha M/Desktop/Project/LibraryManagementSystem (3)/LibraryManagementSystem/Views/Category/Photography.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcUGhvdG9ncmFwaHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Swedha M/Desktop/Project/LibraryManagementSystem (3)/LibraryManagementSystem/Views/Category/Programming.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcUHJvZ3JhbW1pbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Swedha M/Desktop/Project/LibraryManagementSystem (3)/LibraryManagementSystem/Views/Category/ScienceFiction.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcU2NpZW5jZUZpY3Rpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Swedha M/Desktop/Project/LibraryManagementSystem (3)/LibraryManagementSystem/Views/Error/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Swedha M/Desktop/Project/LibraryManagementSystem (3)/LibraryManagementSystem/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Swedha M/Desktop/Project/LibraryManagementSystem (3)/LibraryManagementSystem/Views/Home/LoginPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpblBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Swedha M/Desktop/Project/LibraryManagementSystem (3)/LibraryManagementSystem/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Swedha M/Desktop/Project/LibraryManagementSystem (3)/LibraryManagementSystem/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Swedha M/Desktop/Project/LibraryManagementSystem (3)/LibraryManagementSystem/Views/Login/Indexs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXhzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Swedha M/Desktop/Project/LibraryManagementSystem (3)/LibraryManagementSystem/Views/Order/Payment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcUGF5bWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Swedha M/Desktop/Project/LibraryManagementSystem (3)/LibraryManagementSystem/Views/Order/Paymentsuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcUGF5bWVudHN1Y2Nlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Swedha M/Desktop/Project/LibraryManagementSystem (3)/LibraryManagementSystem/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Swedha M/Desktop/Project/LibraryManagementSystem (3)/LibraryManagementSystem/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Swedha M/Desktop/Project/LibraryManagementSystem (3)/LibraryManagementSystem/Views/UserDetail/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRldGFpbFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Swedha M/Desktop/Project/LibraryManagementSystem (3)/LibraryManagementSystem/Views/UserDetail/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRldGFpbFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Swedha M/Desktop/Project/LibraryManagementSystem (3)/LibraryManagementSystem/Views/UserDetail/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRldGFpbFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Swedha M/Desktop/Project/LibraryManagementSystem (3)/LibraryManagementSystem/Views/UserDetail/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRldGFpbFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Swedha M/Desktop/Project/LibraryManagementSystem (3)/LibraryManagementSystem/Views/UserDetail/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRldGFpbFxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Swedha M/Desktop/Project/LibraryManagementSystem (3)/LibraryManagementSystem/Views/User/IssueBookDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJc3N1ZUJvb2tEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Swedha M/Desktop/Project/LibraryManagementSystem (3)/LibraryManagementSystem/Views/User/UserHomePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVc2VySG9tZVBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Swedha M/Desktop/Project/LibraryManagementSystem (3)/LibraryManagementSystem/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Swedha M/Desktop/Project/LibraryManagementSystem (3)/LibraryManagementSystem/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Swedha M/Desktop/Project/LibraryManagementSystem (3)/LibraryManagementSystem/Views/Account/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-hi62d14r7b
+
+[c:/Users/Swedha M/Desktop/Project/LibraryManagementSystem (3)/LibraryManagementSystem/Views/Account/Signup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTaWdudXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-9nvajoztv4
+
+[c:/Users/Swedha M/Desktop/Project/LibraryManagementSystem (3)/LibraryManagementSystem/Views/Login/AdminLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cQWRtaW5Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-dzrj2pu9pm
+
+[c:/Users/Swedha M/Desktop/Project/LibraryManagementSystem (3)/LibraryManagementSystem/Views/Login/AdminProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cQWRtaW5Qcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-quv5lmkrqx
+
+[c:/Users/Swedha M/Desktop/Project/LibraryManagementSystem (3)/LibraryManagementSystem/Views/Login/UserLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cVXNlckxvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-tdqiyum0nz
+
+[c:/Users/Swedha M/Desktop/Project/LibraryManagementSystem (3)/LibraryManagementSystem/Views/Order/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-r3qsvla9vv
+
+[c:/Users/Swedha M/Desktop/Project/LibraryManagementSystem (3)/LibraryManagementSystem/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-spbznog2vl
+
+[c:/Users/Swedha M/Desktop/Project/LibraryManagementSystem (3)/LibraryManagementSystem/Views/User/Indexs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-gec2sgvg8n
